@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  db:
+    image: mongo:5
+    restart: always
+    ports:
+    # Puerto expuesto
+      - 27017:27017
+    environment:
+        # Nombre de la base de datos
+        MONGODB_DATABASE: nest-pokemon
+    volumes:
+        #Definicion del volumen en la carpeta del proyecti
+      - ./mongo:/data/db
