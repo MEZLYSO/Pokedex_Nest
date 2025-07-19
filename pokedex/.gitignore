@@ -14,7 +14,7 @@ lerna-debug.log*
 
 #Mongo
 
-./mongo/
+mongo
 
 # OS
 .DS_Store
