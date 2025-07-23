@@ -19,7 +19,7 @@ import { JoiValidationSchema } from './config/joi.validation';
     ConfigModule.forRoot({
       load: [EnvConfiguration],
       // Uso de joi para manejo de errores con las 
-      // variables de entorno
+      // variables de entor
       validationSchema: JoiValidationSchema
     }),
 
@@ -31,7 +31,9 @@ import { JoiValidationSchema } from './config/joi.validation';
     //Referencia a base de datos 
     // Este se pausa esperando que la base de datos se cargue 
     // o resuelva
-    MongooseModule.forRoot(process.env.MONGODB!),
+    MongooseModule.forRoot(
+      process.env.MONGODB!,
+      { dbName: 'pokemonsdb' }),
 
     PokemonModule,
 
