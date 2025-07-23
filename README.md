@@ -9,8 +9,6 @@
 ![TypeScript Badge](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff&style=for-the-badge)
 ![Yarn Badge](https://img.shields.io/badge/Yarn-2C8EBB?logo=yarn&logoColor=fff&style=for-the-badge)
 ![Docker Badge](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff&style=for-the-badge)
-![MongoDB Badge](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=fff&style=for-the-badge)
-
 
 </div>
 
@@ -35,9 +33,16 @@ npm i -g @nestjs/cli
 ```
 docker compose -up -d
 ```
- 
-5. Populate Database
+5. Clone the file __.env.template__ y renombrar a __.env__
 
+6. Fill in enviroment to ```.env```
+
+7. Execute proyect with DEV 
+```
+yarn add start:dev
+```
+
+8. Populate Database
 Request to 
 ```
 localhost:3000/api/v2/seed

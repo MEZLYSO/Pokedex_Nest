@@ -40,7 +40,7 @@ mongo
 !.vscode/extensions.json
 
 # dotenv environment variable files
-.env
+# .env
 .env.development.local
 .env.test.local
 .env.production.local
