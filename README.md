@@ -1,5 +1,13 @@
 # Pokedex_Nest
 
+# Deplayment
+
+<div style="display:flex">
+
+![Railway Badge](https://img.shields.io/badge/Railway-0B0D0E?logo=railway&logoColor=fff&style=for-the-badge)(https://pokedexnest-production-fbc0.up.railway.app/)
+
+</div>
+
 # TeckStack
 
 <div style="display:flex">
