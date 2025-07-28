@@ -55,4 +55,10 @@ Request to
 ```
 localhost:3000/api/v2/seed
 ```
-
+# Production build
+1. Create file ```.env.prod```
+2. Create environment variables
+3. Make the image proyect 
+```
+docker compose -f docker-compose.prod.yaml --env-file .env.prod up -d --build
+```

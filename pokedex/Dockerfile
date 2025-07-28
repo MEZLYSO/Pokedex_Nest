@@ -1,6 +1,5 @@
 # Imagen para almacenar dependencias
 FROM node:latest AS deps
-# RUN apt install libc6-dev
 WORKDIR /app
 COPY package.json yarn.lock ./
 RUN yarn cache clean && yarn install --frozen-lockfile
